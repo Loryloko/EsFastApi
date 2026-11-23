@@ -1,0 +1,20 @@
+[project]
+name = "esercizio-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lorenzo",email = "Lorenzomem56@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.165.0,<0.166.0)",
+    "uvicorn (>=0.54.0,<0.55.0)"
+]
+
+[tool.poetry]
+packages = [{include = "esercizio_api"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
